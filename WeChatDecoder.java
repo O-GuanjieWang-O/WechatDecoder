@@ -18,7 +18,7 @@ public class WeChatDecoder {
      * @param targetPath 转换后目录
      */
      //File storage MsgAttach
-     //fe3294eb4ee4d9da7304e1e04ccada34 徐璐
+     //fe3294eb4ee4d9da7304e1e04ccada34
     private static void convert(String path, String targetPath) {
         File[] file = new File(path).listFiles();
         if (file == null) {
